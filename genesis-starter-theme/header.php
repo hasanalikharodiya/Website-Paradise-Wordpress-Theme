@@ -1,2 +1,7 @@
-<h1><?php bloginfo("name")?></h1>
-<h2><?php bloginfo("description")?></h2>
+<!DOCTYPE html>
+<html>
+<head>
+<?php wp_head(); ?> <!-- Let's wordpress to be in control of the head section-->
+</head>
+<body>
+
