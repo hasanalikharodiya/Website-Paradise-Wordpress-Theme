@@ -14,12 +14,20 @@ body {background-color: #D8D8D8;} /*#D8D8D8*/
     float:left;
 }
 
-#footer{
+#page-container {
+    position: relative;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 100%;            /* Footer height */
     text-align:center;
-}
+  }
 
 div#header-area{
     margin-bottom: 50px;
